@@ -40,6 +40,7 @@ $(function () {
       heading.html(heading.html().replace("吃什么？", "吃这个！"));
       $(this).val("不行，换一个");
       clearInterval(timer);
+      $("#what").html("屎");
       run = 0;
     }
   });
