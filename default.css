@@ -37,6 +37,7 @@ body {
 }
 
 #start {
+  display: none;
   width: 120px;
   height: 40px;
   +margin-left: 260px;

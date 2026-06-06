@@ -3,6 +3,9 @@ $(function () {
     heading = $("h1"),
     timer;
 
+  // 页面完全加载后显示"开始"按钮
+  $("#start").show();
+
   $("#start").click(function () {
     var list = $("#list")
       .val()
